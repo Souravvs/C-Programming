@@ -1,7 +1,7 @@
 /*
 Author: Sourav V S
 Date: 26-01-2025
-Description: This is a program to print "Hello World!"
+Description: This is a program to determine the sum of two numbers
 */
 
 #include<stdio.h>
