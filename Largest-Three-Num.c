@@ -21,12 +21,6 @@ int main(){
     }else{
       printf("\nThe largest number is %d\n",num3);
     }
-  }else if(num3 > num1){
-    if(num3 > num2){
-      printf("\nThe largest number is %d\n",num3);
-    }else{
-      printf("\nThe largest number is %d\n",num2);
-    }
   }else{
     printf("\nThe numbers are equal\n");
   }
