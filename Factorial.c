@@ -1,3 +1,8 @@
+/*
+Author: Sourav V S
+Date: 29-01-2025
+Description: This is a program to calculate the factorial of a given number. 
+*/
 #include<stdio.h>
 int main(){
   int num,fact=1,temp;
