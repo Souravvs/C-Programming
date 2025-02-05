@@ -11,20 +11,23 @@ int main(){
     char operation;
     printf("\nEnter two numbers: \n");
     scanf("%d%d",&num1,&num2);
-    printf("\nChoose an operation:\nAddition (A)\nSubtraction (S)\nMultiplication (M)\nDivision (D)\n");
+    printf("\nChoose an operation (+, -, *, /, %%): ");
     scanf(" %c",&operation);
     switch(operation){
-        case 'A': 
+        case '+': 
             printf("\nResult: %d", num1 + num2);
             break;
-        case 'S': 
+        case '-': 
             printf("\nResult: %d", num1 - num2);
             break;
-        case 'M':  
+        case '*':  
             printf("\nResult: %d", num1 * num2);
             break;
-        case 'D': 
+        case '/': 
             printf("\nResult: %d", num1 / num2);
+            break;
+        case '%': 
+            printf("\nResult: %d", num1 % num2);
             break;
         default:
             printf("\nInvalid input!");
