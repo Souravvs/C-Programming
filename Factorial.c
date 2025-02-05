@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
-  int fact,i=1;
+  int num,fact=1,temp;
   printf("\nEnter a positive number: ");
-  scanf("%d",&fact);
-  while(fact > 0){
-    i = i * fact;
-    fact--;
+  scanf("%d",&num);
+  temp = num;
+  while(num > 0){
+    fact = fact * num;
+    num--;
   }
-  printf("\nFactorial of the given number: %d",i);
+  printf("\nFactorial of %d is: %d",temp,fact);
   return 0;
 }
