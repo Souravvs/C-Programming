@@ -1,7 +1,7 @@
 /*
 Author: Sourav V S
 Date: 05-02-2025
-Description: This is a program to perform a sequential search in a one-dimensional array and find the maximum and minimum elements. Display their positions in the array.
+Description: This is a program to sort a given array.
 */
 #include<stdio.h>
 int main(){
