@@ -1,8 +1,8 @@
-'''
+/*
 Author: Sourav V S
 Date: 26-03-25
 Description: This is a program to calculate the power of a number using recursion. 
-'''
+*/
 #include<stdio.h>
 int power(int base, int exp){
 	if (exp == 0){
